@@ -7,7 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="7.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.14" />
+	  
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\DeptFlow.DL\DeptFlow.DL.csproj" />
+    <ProjectReference Include="..\DeptFlow.DTOs\DeptFlow.DTOs.csproj" />
   </ItemGroup>
 
 </Project>
