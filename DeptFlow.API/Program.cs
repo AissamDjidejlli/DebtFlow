@@ -3,7 +3,7 @@ using DeptFlow.BL;
 var builder = WebApplication.CreateBuilder(args);
 
 
-Perties.Initialize(builder.Configuration);
+Parties.Initialize(builder.Configuration);
 
 // Add services to the container.
 
